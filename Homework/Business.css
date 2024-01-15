@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.nav__header{
+    width: 100%;
+    height: 70px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 0 3%;
+}
+.nav__header h1 a{
+    color: greenyellow;
+}
+.nav__header__collection{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.nav__item{
+    text-decoration: none;
+    color: #000;
+}
+.nav__link{
+    text-decoration: none;
+    color: #000;
+}
+.nav__link.active{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url("./Images/bussiness__header.webp") no-repeat center/cover;
+}
+.nav__business{
+    width: 100%;
+    height: 50px;
+    background-color: #aaa;
+    display: flex;
+    gap: 30px;
+    align-items:center;
+    padding: 0 2%;  
+}
+.nav__business h4{
+    font-size: 20px;
+    flex: 1;
+}
+.content__bussines{
+    width: 50%;
+    height: 500px;
+    color: #fff;
+    padding: 200px 50px;
+    margin-bottom: 10px;
+}
+.content__bussines h1{
+    font-size: 45px;
+}
+.noclass{
+    width: 400px;
+    height: 50px;
+    border:none;
+    background: rgb(9, 182, 9);
+    margin-top: 20px;
+    font-size: 17px;
+}
+.content__footer{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    margin-top: 50px;
+}
+.content__footer__boxs{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.footer__boxs1,
+.footer__boxs2,
+.footer__boxs3,
+.footer__boxs4{
+    width: 500px;
+    height: 100%;
+    transition: 2s;
+}
+.footer__boxs1:hover,
+.footer__boxs2:hover,
+.footer__boxs3:hover,
+.footer__boxs4:hover{
+    transform: scale(1.05);
+}
+.footer__boxs1{
+    background: url("./Images/bussiness__body1.webp") no-repeat center/cover;
+}
+.footer__boxs2{
+    background: url("./Images/bussiness__body2.webp") no-repeat center/cover;
+}
+.footer__boxs3{
+    background: url("./Images/bussiness__body3.webp") no-repeat center/cover;
+}
+.footer__boxs4{
+    background: url("./Images/bussiness__body4.webp") no-repeat center/cover;
+}
+.Government{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 190px;
+    justify-content: center;
+}
+.text__parent{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 40px;
+}
+.text{
+    width: 500px;
+    height: 100%;
+}
+.text p{
+    font-size: 23px;
+}
+.business{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-top: 20px;
+}
+.hrrrrr{
+    border: 2px solid green;
+    background: green;
+    cursor: pointer;
+}
+
